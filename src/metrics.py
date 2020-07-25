@@ -96,8 +96,6 @@ def pretty_print_metrics(metrics: Dict[str, Dict[str, float]]):
     negative precision: 0.563
     neutral precision: 0.675
     ...
-    :param metrics:
-    :return:
     """
     for sentiment_type in metrics.keys():
         for metric in metrics[sentiment_type].keys():
